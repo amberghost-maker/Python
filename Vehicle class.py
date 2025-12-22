@@ -13,12 +13,12 @@ class Bus(Vehicle):
     
     def fare(self):
         """Override the fare method to add 10% maintenance charge for Bus"""
-        base_fare = super().fare()  # Total fare = seating_capacity * 100
+        base_fare = super().fare()
         maintenance_charge = base_fare * 0.10
         final_fare = base_fare + maintenance_charge
         return final_fare
 
 
-# Example usage
 bus = Bus(seating_capacity=50)
-print(f"The final fare for the bus is INR {bus.fare()}")  # Output: The final fare for the bus is INR 5500.0
+
+print(f"The final fare for the bus is INR {bus.fare()}")
