@@ -16,6 +16,7 @@ blue_tint = False
 edge_mode = None
 running = True
 print("Controls:")
+#Do you actually read the code?
 print("R - Toggle Red tint")
 print("G - Toggle Green tint")
 print("B - Toggle Blue tint")
